@@ -1,0 +1,15 @@
+name: heatpump-load-shifting
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - plotly
+  - pytz
+  - tzdata

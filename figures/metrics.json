@@ -1,0 +1,118 @@
+{
+  "publication_mode": "sample",
+  "data_span": {
+    "calendar_days_covered": 3,
+    "span_hours": 71.0,
+    "unique_iso_weeks": 1,
+    "datetime_min": "2025-01-21T00:00:00",
+    "datetime_max": "2025-01-23T23:00:00"
+  },
+  "inputs": {
+    "price_csv": "C:\\Users\\Aitor\\Mi unidad\\DEUSTOTECH\\PAPERS\\BILBAO - BOMBAS DE CALOR\\CODE\\heat-pump-analysis-and-load-optimization\\data\\load-shifting-price.csv",
+    "records": 72
+  },
+  "variance": {
+    "total": {
+      "global_energy_kwh": {
+        "original": 423.213,
+        "shifted": 426.6322,
+        "absolute": 3.4192,
+        "percent": 0.8079
+      },
+      "total_cost_eur": {
+        "original": 64.7853,
+        "shifted": 64.0637,
+        "absolute": -0.7216,
+        "percent": -1.1138
+      },
+      "max_load_kw": {
+        "original": 19.637,
+        "shifted": 16.0194,
+        "absolute": -3.6176,
+        "percent": -18.4222
+      }
+    },
+    "daily_selected_dates": {
+      "2025-01-21": {
+        "global_energy_kwh": {
+          "original": 157.156,
+          "shifted": 158.1008,
+          "absolute": 0.9448,
+          "percent": 0.6012
+        },
+        "total_cost_eur": {
+          "original": 24.4229,
+          "shifted": 24.2673,
+          "absolute": -0.1556,
+          "percent": -0.637
+        },
+        "max_load_kw": {
+          "original": 19.637,
+          "shifted": 16.0194,
+          "absolute": -3.6176,
+          "percent": -18.4222
+        }
+      },
+      "2025-01-22": {
+        "global_energy_kwh": {
+          "original": 127.539,
+          "shifted": 128.9884,
+          "absolute": 1.4494,
+          "percent": 1.1364
+        },
+        "total_cost_eur": {
+          "original": 19.1144,
+          "shifted": 18.7845,
+          "absolute": -0.3299,
+          "percent": -1.7262
+        },
+        "max_load_kw": {
+          "original": 17.439,
+          "shifted": 11.8986,
+          "absolute": -5.5404,
+          "percent": -31.7701
+        }
+      },
+      "2025-01-23": {
+        "global_energy_kwh": {
+          "original": 138.518,
+          "shifted": 139.543,
+          "absolute": 1.025,
+          "percent": 0.74
+        },
+        "total_cost_eur": {
+          "original": 21.248,
+          "shifted": 21.012,
+          "absolute": -0.2361,
+          "percent": -1.111
+        },
+        "max_load_kw": {
+          "original": 16.099,
+          "shifted": 13.4331,
+          "absolute": -2.6659,
+          "percent": -16.5594
+        }
+      }
+    },
+    "daily_peak_reduction_quartiles": {
+      "q1_reduction_percent": 18.4222,
+      "q3_reduction_percent": 18.4222,
+      "count_days": 1
+    },
+    "monthly_first_period_omitted": "public_sample_or_short_span: monthly slice not reported for publication sample"
+  },
+  "plots": [
+    "price_dashboard",
+    "single_day_2025-01-21",
+    "multi_price_pareto",
+    "multi_energy_pareto",
+    "single_day_2025-01-22",
+    "cop_vs_time",
+    "cop_pareto_and_weekly_stack"
+  ],
+  "plot_adjustments": [
+    "fig7: adaptive Pareto axis limits (short series or public-sample mode)",
+    "fig6: weekly COP panel replaced by daily mean (calendar span < 7 days)"
+  ],
+  "plots_skipped": []
+}
