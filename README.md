@@ -54,4 +54,16 @@ System efficiency, measured through the Coefficient of Performance, is preserved
 
 ---
 
+## Acknowledgements
+
+This work was carried out within the scope of the **Deusto Sustainable Research Group** at the University of Deusto.
+
+---
+
+## License
+
+This project is released under the [MIT License](LICENSE).
+
+---
+
 *This work was supported by the European Union's Horizon Europe research and innovation programme under grant agreements No 101172968 (Project STUNNED) and No 864374 (Project ATELIER). The authors gratefully acknowledge TELUR Geotermia y Agua S.A. for granting access to the operational data that underpins this research.*
